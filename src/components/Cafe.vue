@@ -8,9 +8,7 @@
             tag="article"
             class="mb-2"
         >
-            <b-card-text>
-                <div class="my-2"><small>{{ description.substring(0,100) }}...</small></div>
-            </b-card-text>
+            <small>{{ description.substring(0,100) }}...</small>
 
             <b-button block variant="dark"><g-link :to="path">Kaffee trinken</g-link></b-button>
         </b-card>
