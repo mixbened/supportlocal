@@ -26,7 +26,7 @@
 
                   
 
-                  <a href="mailto:help@espress-für-kölle.de"><b-button block variant="dark"><i class="far fa-heart text-light"></i> Kaffee trinken</b-button></a>
+                  <g-link to="/cafes"><b-button block variant="dark"><i class="far fa-heart text-light"></i> Kaffee trinken</b-button></g-link>
               </b-card>   
           </b-col>
           <b-col sm="6">
@@ -38,7 +38,7 @@
 
                   
 
-                  <a href="mailto:help@espress-für-kölle.de"><b-button block variant="dark"><i class="far fa-envelope text-light"></i> Schreibe uns</b-button></a>
+                  <a href="mailto:help@espresso-fuer-koelle.de"><b-button block variant="dark"><i class="far fa-envelope text-light"></i> Schreibe uns</b-button></a>
               </b-card> 
           </b-col>
         </b-row>
