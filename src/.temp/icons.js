@@ -5,19 +5,19 @@ export default {
   "touchicons": [
     {
       "width": 16,
-      "height": 23,
+      "height": 16,
       "src": "/assets/static/src/favicon.png?width=16"
     }
   ],
   "favicons": [
     {
       "width": 16,
-      "height": 23,
+      "height": 16,
       "src": "/assets/static/src/favicon.png?width=16"
     },
     {
       "width": 16,
-      "height": 23,
+      "height": 16,
       "src": "/assets/static/src/favicon.png?width=16"
     }
   ]

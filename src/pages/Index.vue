@@ -5,8 +5,10 @@
       <b-row>
         <b-col sm="6">
           <h2 class="py-2">Espresso für Kölle</h2>
-          <h5>Wir lieben unsere Cafés</h5>
-          <p>text text text</p>
+          <h5>Unterstütze jetzt dein Veedelcafé!</h5>
+          <p class="text-justify">Wir alle schränken uns wegen der voranschreitenden Ausbreitung von Corona in unserem täglichen Leben ein. Während dies für die Glücklicheren unter uns bislang vor allem verlängerte Osterferien oder den Wechsel ins Homeoffice bedeutet hat, trifft die Krise gerade kleine Unternehmen wie dein Stammcafé an der Ecke. Während der Verkauf durch die Behörden eingeschränkt wird und die Kunden möglichst zuhause bleiben, müssen sie weiter für ihre Kosten wie Miete, Personal oder Versicherungen aufkommen. Deshalb möchten wir mit unserer Aktion einen kleinen solidarischen Beitrag leisten, dass unsere Lieblingscafés auch diese kritische Zeit ohne die üblichen Einnahmen überstehen, bis wir wieder vor Ort unseren Kaffee genießen können.</p> 
+          <p>Du hast daher auf der Seite die Möglichkeit, dein Stammcafé auszuwählen und dir virtuell den Kaffee/Espresso zu kaufen, den du dir vielleicht in dem Moment tatsächlich gerne im Geschäft geholt hättest. Einfach via PayPal bezahlen und schon hast du dem Inhaber oder der Inhaberin, mit der du dich sonst in der Mittagspause auf einen Schnack getroffen hättest, ein Stück weitergeholfen. Und das Beste: Du musstest nicht einmal das Haus verlassen!</p>
+          <b>Vielen Dank für eure Mithilfe!</b>
         </b-col>
         <b-col sm="6">
           <img src="https://images.unsplash.com/photo-1507914464562-6ff4ac29692f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="poster">

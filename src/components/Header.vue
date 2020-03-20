@@ -27,5 +27,11 @@ img {
   ul.pr-5 {
     padding: 0 !important;
   }
+  img {
+    max-width: 50px;
+  }
+  ul > a {
+    font-size: 0.8em !important;
+  }
 }
 </style>

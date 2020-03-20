@@ -49,4 +49,7 @@ export default {
 section {
   margin: 6% 0;
 }
+div.w-50 {
+  width: 100% !important;
+}
 </style>
