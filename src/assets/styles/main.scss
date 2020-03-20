@@ -2,6 +2,10 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
+body {
+    font-family: "Helvetica", sans-serif
+}
+
 
 @media (max-width: 768px){
     p {
