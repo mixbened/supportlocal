@@ -2,13 +2,13 @@
     <section>
       <b-card
             :title="title"
-            :img-src="'https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'"
+            :img-src="imageUrl"
             img-alt="Article Image"
             img-top
             tag="article"
             class="mb-2"
         >
-            <small>{{ description.substring(0,100) }}...</small>
+            <p>{{ description.substring(0,100) }}...</p>
 
             <g-link :to="path"><b-button block variant="dark">Kaffee trinken</b-button></g-link>
         </b-card>
@@ -19,7 +19,7 @@
 
 export default {
   name: 'Cafe',
-  props: ['title', 'description', 'path']
+  props: ['title', 'description', 'path', 'imageUrl']
 }
 </script>
 

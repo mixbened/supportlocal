@@ -4,17 +4,19 @@
       <div class="my-5">
         <h2>{{ $page.cafe.title }}</h2>
         <p>{{ $page.cafe.description }}</p>
+        <img :src="$page.cafe.image.file.url" alt="" class="w-100">
       </div>
       <h5>Virtuell genießen</h5>
       <hr>
       <div class="card text-center">
         <b-row class="card-body align-items-center">
           <b-col>
-            <h5 class="text-left">Cappucino <i class="far fa-heart text-dark"></i></h5>
+            <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
             <p class="text-left">Vom Sofa aus einen Kaffee trinken, ohne ihn trinken zu müssen!</p>
           </b-col>
           <b-col class="text-right">
-            <a href="#" class="btn btn-outline-dark">Kaufen</a>
+            <p><b>2.00 €</b></p>
+            <a :href="$page.cafe.paypal + '2'" class="btn btn-outline-dark" target="_blank">Kaufen</a>
             <!-- <div id="paypal-button-container"></div> -->
           </b-col>
         </b-row>
@@ -29,6 +31,11 @@ query ($id: ID!) {
     title
     description
     paypal
+    image {
+      file {
+        url
+      }
+    }
   }
 }
 </page-query>
@@ -53,27 +60,6 @@ export default {
           }
       }})
     }
-  },
-  mounted(){
-    paypal.Buttons({
-    createOrder: function(data, actions) {
-      // This function sets up the details of the transaction, including the amount and line item details.
-      return actions.order.create({
-        purchase_units: [{
-          amount: {
-            value: '2.00'
-          }
-        }]
-      });
-    },
-    onApprove: function(data, actions) {
-      // This function captures the funds from the transaction.
-      return actions.order.capture().then(function(details) {
-        // This function shows a transaction success message to your buyer.
-        alert('Transaction completed by ' + details.payer.name.given_name);
-      });
-    }
-  }).render('#paypal-button-container');
   }
 }
 </script>

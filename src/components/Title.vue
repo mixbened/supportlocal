@@ -1,8 +1,6 @@
 <template>
-    <section class="section">
-        <h2 class="text-light bg-dark p-1 w-25">{{ title }}</h2>
+        <h2 class="text-light bg-dark p-1 w-25 mx-auto text-center">{{ title }}</h2>
         <!-- <h5 class="title is-6 has-text-centered">{{ subtitle }}</h5> -->
-    </section>
 </template>
 
 <script>
