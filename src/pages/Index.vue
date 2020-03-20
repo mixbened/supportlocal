@@ -38,7 +38,7 @@
 
                   
 
-                  <a href="mailto:help@espresso-fuer-koelle.de"><b-button block variant="dark"><i class="far fa-envelope text-light"></i> Schreibe uns</b-button></a>
+                  <a href="mailto:espressofuerkoelle@gmail.com"><b-button block variant="dark"><i class="far fa-envelope text-light"></i> Schreibe uns</b-button></a>
               </b-card> 
           </b-col>
         </b-row>

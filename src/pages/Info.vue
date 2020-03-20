@@ -25,7 +25,7 @@
       
       <section>
         <h5>Mein Lieblingscafé ist noch nicht bei euch zu finden, was kann ich tun?</h5>
-        <p>Schreib uns unbedingt eine Nachricht an help@espresso-fuer-koelle.de mit dem Namen und insbesondere den Kontaktdaten der Inhaber.</p>
+        <p>Schreib uns unbedingt eine Nachricht an espressofuerkoelle@gmail.com mit dem Namen und insbesondere den Kontaktdaten der Inhaber.</p>
       </section>
       
       <section>
