@@ -38,7 +38,7 @@ import Cafe from '../components/Cafe'
 
 export default {
   metaInfo: {
-    title: 'Support Your Local - Cafes'
+    title: 'Wir lieben Cafés'
   },
   components: {
     Title,

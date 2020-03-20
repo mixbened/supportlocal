@@ -25,7 +25,7 @@
       
       <section>
         <h5>Mein Lieblingscafé ist noch nicht bei euch zu finden, was kann ich tun?</h5>
-        <p>Schreib uns unbedingt eine Nachricht an […] mit dem Namen und insbesondere den Kontaktdaten der Inhaber. Oder noch besser: Kontaktiere die Inhaber direkt und bitte sie, sich bei uns zu melden.</p>
+        <p>Schreib uns unbedingt eine Nachricht an help@espresso-für-kölle.de mit dem Namen und insbesondere den Kontaktdaten der Inhaber. Oder noch besser: Kontaktiere die Inhaber direkt und bitte sie, sich bei uns zu melden.</p>
       </section>
 
     </b-container>
@@ -37,7 +37,7 @@ import Title from '../components/Title'
 
 export default {
   metaInfo: {
-    title: 'Support Your Local - Info'
+    title: 'Wir lieben Cafés'
   },
   components: {
     Title

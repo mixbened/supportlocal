@@ -4,7 +4,8 @@
     <b-container>
       <b-row>
         <b-col sm="6">
-          <h2 class="py-2">Support Local Cafés</h2>
+          <h2 class="py-2">Espresso für Kölle</h2>
+          <h5>Wir lieben unsere Cafés</h5>
           <p>text text text</p>
         </b-col>
         <b-col sm="6">
@@ -18,7 +19,7 @@
         >
             <p>Melde dich bei uns für eine Anleitung, wie du auf die Plattform kommst...</p>
 
-            <b-button block variant="dark">Schreibe uns</b-button>
+            <a href="mailto:help@espress-für-kölle.de"><b-button block variant="dark">Schreibe uns</b-button></a>
         </b-card>
       </b-container>
     </b-container>
@@ -30,7 +31,7 @@ import Title from '../components/Title'
 
 export default {
   metaInfo: {
-    title: 'Support Your Local'
+    title: 'Wir lieben Cafés'
   },
   components: {
     Title
@@ -41,5 +42,11 @@ export default {
 <style lang="scss" scoped>
 img {
   max-width: 100%;
+}
+
+@media (max-width: 768px){
+  .w-50 {
+    width: 100% !important;
+  }
 }
 </style>
