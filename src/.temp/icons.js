@@ -6,19 +6,19 @@ export default {
     {
       "width": 16,
       "height": 23,
-      "src": "/assets/static/favicon.ce0531f.da80f04.png"
+      "src": "/assets/static/src/favicon.png?width=16"
     }
   ],
   "favicons": [
     {
       "width": 16,
       "height": 23,
-      "src": "/assets/static/favicon.ce0531f.da80f04.png"
+      "src": "/assets/static/src/favicon.png?width=16"
     },
     {
       "width": 16,
       "height": 23,
-      "src": "/assets/static/favicon.ce0531f.da80f04.png"
+      "src": "/assets/static/src/favicon.png?width=16"
     }
   ]
 }

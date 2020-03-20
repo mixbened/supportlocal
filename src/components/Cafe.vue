@@ -10,7 +10,7 @@
         >
             <small>{{ description.substring(0,100) }}...</small>
 
-            <b-button block variant="dark"><g-link :to="path">Kaffee trinken</g-link></b-button>
+            <g-link :to="path"><b-button block variant="dark">Kaffee trinken</b-button></g-link>
         </b-card>
     </section>
 </template>
