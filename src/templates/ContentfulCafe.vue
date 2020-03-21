@@ -16,11 +16,15 @@
           </b-col>
           <b-col class="text-right">
             <p><b>2.00 €</b></p>
-            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-outline-dark" target="_blank">Kaufen</a>
+            <b-button @click="check" class="btn btn-dark">Kaufen</b-button>
             <!-- <div id="paypal-button-container"></div> -->
           </b-col>
         </b-row>
       </div>
+        <b-alert
+          :show="show"
+          variant="warning"
+        >Melde dein Café jetzt an um weitergeleitet zu werden...</b-alert>
     </section>
   </Layout>
 </template>
@@ -50,7 +54,10 @@ export default {
     return {
     }
   },
-  components: {
+  data() {
+    return {
+      show: false
+    }
   },
   methods: {
     richtextToHTML (content) {
@@ -59,6 +66,9 @@ export default {
             return `<img class="img-fluid" src="${node.data.target.fields.file.url}" alt="${node.data.target.fields.title}"/>`
           }
       }})
+    },
+    check(){
+      this.show = !this.show
     }
   }
 }

@@ -13,6 +13,7 @@
         </b-col>
         <b-col sm="6">
           <img src="https://images.unsplash.com/photo-1507914464562-6ff4ac29692f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="poster">
+          <small style="font-size: 0.4em">Photo by Brooke Cagle on Unsplash</small>
         </b-col>
       </b-row>
       <b-container class="my-5">
