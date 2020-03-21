@@ -3,6 +3,6 @@ import plugin_gridsome_plugin_google_analytics_6 from "/Users/benediktmix/dev/su
 export default [
   {
     run: plugin_gridsome_plugin_google_analytics_6,
-    options: {"id":"UA-141593661-1"}
+    options: {"id":"UA-161481513-1"}
   }
 ]
