@@ -12,6 +12,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--info-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Info.vue")
   },
   {
+    path: "/data/",
+    component: () => import(/* webpackChunkName: "page--src--pages--data-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Data.vue")
+  },
+  {
     path: "/cafes/",
     component: () => import(/* webpackChunkName: "page--src--pages--cafes-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Cafes.vue")
   },

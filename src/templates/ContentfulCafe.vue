@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <section class="w-50 mx-auto">
-      <div class="my-5">
+      <div class="mb-5">
         <h2>{{ $page.cafe.title }}</h2>
         <p>{{ $page.cafe.description }}</p>
-        <img :src="$page.cafe.image.file.url" alt="" class="w-100">
+      <img :src="$page.cafe.image.file.url" alt="" class="w-100">
       </div>
       <h5>Virtuell genießen</h5>
       <hr>
-      <div class="card text-center">
+      <div class="card text-center my-3 mb-5">
         <b-row class="card-body align-items-center">
           <b-col>
             <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
