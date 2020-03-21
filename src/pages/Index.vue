@@ -20,6 +20,7 @@
         </b-col>
       </b-row>
       <hr>
+      <img class="mx-auto d-block my-5" src="../assets/images/logo.png" alt="">
       <b-container style="margin: 10% 0">
         <b-row>
           <b-col sm="6">
@@ -66,6 +67,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.banner {
+
+}
 img {
   max-width: 100%;
 }
