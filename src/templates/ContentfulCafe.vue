@@ -11,12 +11,12 @@
       <hr>
       <div class="card text-center my-3 mb-5">
         <b-row class="card-body align-items-center">
-          <b-col>
+          <b-col sm="6">
             <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
             <p class="text-left">Genieße deinen virtuellen Espresso von zu Hause!</p>
             <small class="text-left d-block font-italic">"{{ $page.cafe.statement }}"</small>
           </b-col>
-          <b-col class="text-right">
+          <b-col sm="6" class="text-right">
             <p><b>2.50 €</b></p>
             <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank">Kaufen</a>
             <!-- <div id="paypal-button-container"></div> -->
