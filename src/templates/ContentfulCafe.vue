@@ -16,7 +16,7 @@
           </b-col>
           <b-col class="text-right">
             <p><b>2.50 €</b></p>
-            <b-button @click="check" class="btn btn-dark">Kaufen</b-button>
+            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark">Kaufen</a>
             <!-- <div id="paypal-button-container"></div> -->
           </b-col>
         </b-row>
