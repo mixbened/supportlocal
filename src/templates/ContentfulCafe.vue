@@ -5,6 +5,7 @@
         <h2>{{ $page.cafe.title }}</h2>
         <p>{{ $page.cafe.description }}</p>
       <img :src="$page.cafe.image.file.url" alt="" class="w-100">
+      <small class="my-4 d-block font-italic">Inhaber: {{ $page.cafe.inhaber }}</small>
       </div>
       <h5>Virtuell genießen</h5>
       <hr>
@@ -13,6 +14,7 @@
           <b-col>
             <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
             <p class="text-left">Genieße deinen virtuellen Espresso von zu Hause!</p>
+            <small class="text-left d-block font-italic">"{{ $page.cafe.statement }}"</small>
           </b-col>
           <b-col class="text-right">
             <p><b>2.50 €</b></p>
@@ -34,6 +36,8 @@ query ($id: ID!) {
   cafe: contentfulCafe (id: $id) {
     title
     description
+    inhaber
+    statement
     paypal
     image {
       file {
