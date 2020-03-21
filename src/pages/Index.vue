@@ -8,7 +8,9 @@
           <h5>Unterstütze jetzt dein Veedelcafé!</h5>
           <hr>
           <p class="text-justify">Wir alle schränken uns wegen der voranschreitenden Ausbreitung von Corona in unserem täglichen Leben ein. Während dies für die Glücklicheren unter uns bislang vor allem verlängerte Osterferien oder den Wechsel ins Homeoffice bedeutet hat, trifft die Krise gerade kleine Unternehmen wie dein Stammcafé an der Ecke. Während der Verkauf durch die Behörden eingeschränkt wird und die Kunden möglichst zuhause bleiben, müssen sie weiter für ihre Kosten wie Miete, Personal oder Versicherungen aufkommen. Deshalb möchten wir mit unserer Aktion einen kleinen solidarischen Beitrag leisten, dass unsere Lieblingscafés auch diese kritische Zeit ohne die üblichen Einnahmen überstehen, bis wir wieder vor Ort unseren Kaffee genießen können.</p> 
+          <div class="my-4 p-2 bg-dark text-light" style="font-size: 2em;">#supportyourlocalsonline</div>
           <p>Du hast daher auf der Seite die Möglichkeit, dein Stammcafé auszuwählen und dir virtuell den Kaffee/Espresso zu kaufen, den du dir vielleicht in dem Moment tatsächlich gerne im Geschäft geholt hättest. Einfach via PayPal bezahlen und schon hast du dem Inhaber oder der Inhaberin, mit der du dich sonst in der Mittagspause auf einen Schnack getroffen hättest, ein Stück weitergeholfen. Und das Beste: Du musstest nicht einmal das Haus verlassen!</p>
+          <p>Unsere Idee ist der Erwerb eines rein virtuellen Kaffees als solidarische Aktion - also ohne tatsächlichen Gegenwert. Viele Inhaber bieten euch individuell einen Gutschein für einen tatsächlichen Kaffee oder den entsprechenden Gegenwert an. Ob dies der Fall ist, seht ihr in dem Info-Text zu dem jeweiligen Café oder in der Info auf der PayPal-Seite eures Cafés, auf die ihr zum Bezahlen weitergeleitet werdet.</p>
           <b>Vielen Dank für eure Mithilfe!</b>
         </b-col>
         <b-col sm="6">
@@ -16,7 +18,8 @@
           <small style="font-size: 0.4em">Photo by Brooke Cagle on Unsplash</small>
         </b-col>
       </b-row>
-      <b-container class="my-5">
+      <hr>
+      <b-container style="margin: 10% 0">
         <b-row>
           <b-col sm="6">
             <b-card
@@ -39,7 +42,7 @@
 
                   
 
-                  <a href="mailto:espressofuerkoelle@gmail.com"><b-button block variant="dark"><i class="far fa-envelope text-light"></i> Schreibe uns</b-button></a>
+                  <a href="mailto:espressofuerkoelle@gmail.com"><b-button block variant="dark"> Schreibe uns</b-button></a>
               </b-card> 
           </b-col>
         </b-row>
