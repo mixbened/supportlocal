@@ -12,10 +12,10 @@
         <b-row class="card-body align-items-center">
           <b-col>
             <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
-            <p class="text-left">Vom Sofa aus einen Kaffee trinken, ohne ihn trinken zu müssen!</p>
+            <p class="text-left">Genieße deinen virtuellen Espresso von zu Hause!</p>
           </b-col>
           <b-col class="text-right">
-            <p><b>2.00 €</b></p>
+            <p><b>2.50 €</b></p>
             <b-button @click="check" class="btn btn-dark">Kaufen</b-button>
             <!-- <div id="paypal-button-container"></div> -->
           </b-col>
