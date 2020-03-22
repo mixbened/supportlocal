@@ -26,7 +26,7 @@
               <div class="d-block text-center">
                 <img src="../assets/images/logo.png" alt="" style="width: 100%">
               </div>
-              <b-button class="mt-3 btn-dark" block @click="$bvModal.hide('modal-center')">Wir sagen danke!! <i class="far fa-heart text-light"></i></b-button>
+              <b-button id="paypal" class="mt-3 btn-dark" block @click="$bvModal.hide('modal-center')">Wir sagen danke!! <i class="far fa-heart text-light"></i></b-button>
             </b-modal>
           </b-col>
         </b-row>
