@@ -18,8 +18,16 @@
           </b-col>
           <b-col sm="6" class="text-right">
             <p><b>2.50 €</b></p>
-            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank">Kaufen</a>
-            <!-- <div id="paypal-button-container"></div> -->
+            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank" v-b-modal.modal-center>Kaufen</a>
+            <b-modal id="modal-center" hide-footer>
+              <!-- <template v-slot:modal-title>
+                <h4>Hast du deinem Lieblingscafé etwas gespendet?</h4>
+              </template> -->
+              <div class="d-block text-center">
+                <img src="../assets/images/logo.png" alt="" style="width: 100%">
+              </div>
+              <b-button class="mt-3 btn-dark" block @click="$bvModal.hide('modal-center')">Wir sagen danke!! <i class="far fa-heart text-light"></i></b-button>
+            </b-modal>
           </b-col>
         </b-row>
       </div>
@@ -79,6 +87,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.modal-title > h4 {
+  font-size: .8em;
+}
 @media (max-width: 768px) {
   section {
     width: 100% !important;
