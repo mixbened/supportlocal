@@ -4,7 +4,7 @@ module.exports = {
   templates: {
     ContentfulCafe: '/cafe/:title'
   },
-  siteUrl: 'https://www.supportyourlocal.de',
+  siteUrl: 'https://www.espresso-fuer-koelle.de',
   plugins: [
     {
       use: '@gridsome/source-contentful',
