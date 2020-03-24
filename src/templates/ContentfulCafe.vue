@@ -14,7 +14,7 @@
           <b-col sm="6">
             <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
             <p class="text-left">Genieße deinen virtuellen Espresso von zu Hause!</p>
-            <small class="text-left d-block font-italic">"{{ $page.cafe.statement }}"</small>
+            <small v-if="$page.cafe.statement" class="text-left d-block font-italic">"{{ $page.cafe.statement }}"</small>
           </b-col>
           <b-col sm="6" class="text-right">
             <p><b>2.50 €</b></p>

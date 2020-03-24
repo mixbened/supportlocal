@@ -4,12 +4,12 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--contentful-cafe-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/templates/ContentfulCafe.vue")
   },
   {
-    path: "/info/",
-    component: () => import(/* webpackChunkName: "page--src--pages--info-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Info.vue")
-  },
-  {
     path: "/impressum/",
     component: () => import(/* webpackChunkName: "page--src--pages--impressum-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Impressum.vue")
+  },
+  {
+    path: "/info/",
+    component: () => import(/* webpackChunkName: "page--src--pages--info-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Info.vue")
   },
   {
     path: "/data/",
