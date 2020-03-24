@@ -18,7 +18,7 @@
           </b-col>
           <b-col sm="6" class="text-right">
             <p><b>2.50 €</b></p>
-            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank" v-b-modal.modal-center>Kaufen</a>
+            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank" v-b-modal.modal-center @click="sendClick($page.cafe.title)">Kaufen</a>
             <b-modal id="modal-center" hide-footer>
               <!-- <template v-slot:modal-title>
                 <h4>Hast du deinem Lieblingscafé etwas gespendet?</h4>
@@ -59,6 +59,7 @@ query ($id: ID!) {
 <script>
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer'
 import { BLOCKS } from '@contentful/rich-text-types'
+import axios from 'axios'
 
 
 export default {
@@ -79,14 +80,21 @@ export default {
           }
       }})
     },
-    check(){
-      this.show = !this.show
+    sendClick(name){
+      const url = 'https://hooks.zapier.com/hooks/catch/3341374/o1xwglf/'
+      axios.get( url + '?cafe=' +  name ).then(res => {
+        console.log('Response ', res)
+      }).catch(err => console.warn(err))
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+img {
+  border-radius: 5px;
+  max-width: 480px;
+}
 .modal-title > h4 {
   font-size: .8em;
 }
