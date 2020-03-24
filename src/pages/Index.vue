@@ -13,6 +13,8 @@
           <div class="mt-2 mb-4 p-2 bg-dark text-light tag" style="display: inline-block;">#espressofuerkoelle</div>
           <p>Unsere Idee ist der Erwerb eines rein virtuellen Kaffees als solidarische Aktion - also ohne tatsächlichen Gegenwert. Viele Inhaber bieten euch individuell einen Gutschein für einen tatsächlichen Kaffee oder den entsprechenden Gegenwert an. Ob dies der Fall ist, seht ihr in dem Info-Text zu dem jeweiligen Café oder in der Info auf der PayPal-Seite eures Cafés, auf die ihr zum Bezahlen weitergeleitet werdet.</p>
           <b>Vielen Dank für eure Mithilfe!</b>
+          <br>
+          <i>Maxi & Bene</i>
         </b-col>
         <b-col sm="6">
           <img src="https://images.unsplash.com/photo-1507914464562-6ff4ac29692f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="poster">

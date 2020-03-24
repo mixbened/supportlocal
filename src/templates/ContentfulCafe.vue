@@ -9,7 +9,7 @@
       </div>
       <h5>Virtuell genießen</h5>
       <hr>
-      <div class="card text-center my-3 mb-5">
+      <div class="card text-center">
         <b-row class="card-body align-items-center">
           <b-col sm="6">
             <h5 class="text-left">Espresso <i class="far fa-heart text-dark"></i></h5>
@@ -33,10 +33,6 @@
           </b-col>
         </b-row>
       </div>
-        <b-alert
-          :show="show"
-          variant="warning"
-        >Melde dein Café jetzt an um weitergeleitet zu werden...</b-alert>
     </section>
   </Layout>
 </template>
@@ -99,6 +95,9 @@ img {
 }
 .modal-title {
   font-size: .8em;
+}
+div.card {
+  margin-bottom: 20%;
 }
 @media (max-width: 768px) {
   section {
