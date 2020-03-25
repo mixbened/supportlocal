@@ -13,7 +13,7 @@
 
 <page-query>
 query Cafe {
-  cafes: allContentfulCafe(sortBy: "date") {
+  cafes: allContentfulCafe(sortBy: "title") {
       edges {
         node {
           id
