@@ -18,17 +18,17 @@
           </b-col>
           <b-col sm="6" class="text-right">
             <p><b>2.50 €</b></p>
-            <a :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank" v-b-modal.modal-center @click="sendClick($page.cafe.title)">Kaufen</a>
-            <!-- <a v-if="!loading" class="btn btn-dark" target="_blank" v-b-modal.modal-center>Kaufen</a> -->
+            <a v-if="!show" :href="$page.cafe.paypal + '2.5'" class="btn btn-dark" target="_blank" @click="modal = true">Bestellen</a>
+            <!-- <a class="btn btn-dark" target="_blank" @click="sendClick">Kaufen</a> -->
             <!-- <img v-if="loading" src="https://media.giphy.com/media/gOQ6EgtAiwXde/source.gif" alt="coffee for cologne" width="100"> -->
-            <b-modal id="modal-center" hide-footer hide-header centered>
+            <b-modal v-model="modal" hide-footer hide-header centered>
               <template v-slot:modal-title>
                 <h4>Dein Kaffee is fertig!</h4>
               </template>
               <div class="d-block text-center">
-                <img src="https://media.giphy.com/media/gOQ6EgtAiwXde/source.gif" alt="" style="width: 50%">
+                  <img v-if="!show" src="https://media.giphy.com/media/gOQ6EgtAiwXde/source.gif" alt="" style="width: 50%">
               </div>
-              <b-button id="paypal" class="mt-3 btn-dark" block @click="$bvModal.hide('modal-center')">Enjoy your coffee <i class="far fa-heart text-light"></i></b-button>
+              <b-button v-if="!show" id="paypal" class="mt-3 btn-dark" block @click="modal = false">Enjoy your coffee <i class="far fa-heart text-light"></i></b-button>
             </b-modal>
           </b-col>
         </b-row>
@@ -67,7 +67,8 @@ export default {
   },
   data() {
     return {
-      show: false
+      show: false,
+      modal: false
     }
   },
   methods: {
@@ -79,10 +80,12 @@ export default {
       }})
     },
     sendClick(name){
-      this.loading = true;
-      const url = 'https://hooks.zapier.com/hooks/catch/3341374/o1xwglf/'
-      axios.get( url + '?cafe=' +  name ).then(res => {
-      }).catch(err => console.warn(err))
+      console.log("Click")
+      this.modal = true;
+      this.show = true;
+      setTimeout(() => {
+        this.show = !this.show
+      }, 7000)
     }
   }
 }
@@ -98,6 +101,15 @@ img {
 }
 div.card {
   margin-bottom: 20%;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0
 }
 @media (max-width: 768px) {
   section {

@@ -19,7 +19,7 @@
 
 <page-query>
 query Cafe {
-  cafes: allContentfulCafe(sortBy: "title") {
+  cafes: allContentfulCafe(filter: { standort: {eq: "deutz"} }) {
       edges {
         node {
           id

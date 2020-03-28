@@ -6,6 +6,22 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.filter {
+    cursor: pointer;
+    transition: .5s;
+  }
+.filter:hover {
+background-color: #f8f8f8;
+// color: white !important;
+text-decoration: none;
+}
+.active-filter {
+background-color: orange;
+color: white !important;
+}
+.filter-container {
+    margin: 3% 10%;
+}
 
 @media (max-width: 768px){
     p {
@@ -22,5 +38,11 @@ body {
     }
     h4 {
         font-size: 1rem !important;
+    }
+    .filter {
+        padding: 5px !important;
+    }
+    .filter-container {
+        margin: 10%;
     }
 }

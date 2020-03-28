@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <Title title="Cafés" />
-    <div class="text-center d-flex flex-wrap justify-content-between border-top border-bottom filter-container">
+    <div class="text-center d-flex flex-wrap justify-content-between mt-4 border-top border-bottom filter-container mx-5">
         <b-col sm="6" md="3"><g-link to="/cafes/" class="filter p-2 px-5 d-inline-block"><span>Alle Viertel</span></g-link></b-col>
         <b-col sm="6" md="3"><g-link to="/belgique/" class="filter p-2 px-5 d-inline-block"><span>Belgisches Viertel</span></g-link></b-col>
         <b-col sm="6" md="3"><g-link to="/ehrenfeld/" class="filter p-2 px-5 d-inline-block"><span>Ehrenfeld</span></g-link></b-col>
@@ -19,7 +19,7 @@
 
 <page-query>
 query Cafe {
-  cafes: allContentfulCafe(sortBy: "title") {
+  cafes: allContentfulCafe(filter: { standort: {eq: "südstadt"} }) {
       edges {
         node {
           id
