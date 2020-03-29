@@ -1,12 +1,12 @@
 <template>
   <Layout>
     <Title title="Cafés" />
-    <div class="text-center d-flex flex-wrap justify-content-between border-top border-bottom filter-container">
+    <!-- <div class="text-center d-flex flex-wrap justify-content-between border-top border-bottom filter-container">
         <b-col sm="6" md="3"><g-link to="/cafes/" class="filter p-2 px-5 d-inline-block"><span>Alle Viertel</span></g-link></b-col>
         <b-col sm="6" md="3"><g-link to="/belgique/" class="filter p-2 px-5 d-inline-block"><span>Belgisches Viertel</span></g-link></b-col>
         <b-col sm="6" md="3"><g-link to="/ehrenfeld/" class="filter p-2 px-5 d-inline-block"><span>Ehrenfeld</span></g-link></b-col>
         <b-col sm="6" md="3"><g-link to="/deutz/" class="filter p-2 px-5 d-inline-block"><span>Deutz</span></g-link></b-col>
-    </div>
+    </div> -->
     <b-container class="my-5">
         <b-row>
           <b-col v-for="edge in $page.cafes.edges" :key="edge.node.id" sm="4" style="margin-bottom: 50px;">
