@@ -22,7 +22,7 @@
 
 <page-query>
 query Cafe {
-  cafes: allContentfulCafe(filter: { standort: {eq: "ehrenfeld"} }) {
+  cafes: allContentfulCafe(filter: { standort: {eq: "nippes"} }) {
       edges {
         node {
           id

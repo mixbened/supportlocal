@@ -5,7 +5,11 @@ export default [
   },
   {
     path: "/suedstadt/",
-    component: () => import(/* webpackChunkName: "page--src--pages--suedstadt-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Südstadt.vue")
+    component: () => import(/* webpackChunkName: "page--src--pages--suedstadt-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Suedstadt.vue")
+  },
+  {
+    path: "/nippes/",
+    component: () => import(/* webpackChunkName: "page--src--pages--nippes-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Nippes.vue")
   },
   {
     path: "/impressum/",
@@ -34,6 +38,10 @@ export default [
   {
     path: "/belgique/",
     component: () => import(/* webpackChunkName: "page--src--pages--belgique-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Belgique.vue")
+  },
+  {
+    path: "/altstadt/",
+    component: () => import(/* webpackChunkName: "page--src--pages--altstadt-vue" */ "/Users/benediktmix/dev/supportyourlocal/src/pages/Altstadt.vue")
   },
   {
     name: "404",

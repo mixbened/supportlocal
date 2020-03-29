@@ -1,11 +1,14 @@
 <template>
   <Layout>
     <Title title="Cafés" />
-    <div class="text-center d-flex flex-wrap justify-content-between mt-4 border-top border-bottom filter-container mx-5">
-        <b-col sm="6" md="3"><g-link to="/cafes/" class="filter p-2 px-5 d-inline-block"><span>Alle Viertel</span></g-link></b-col>
-        <b-col sm="6" md="3"><g-link to="/belgique/" class="filter p-2 px-5 d-inline-block"><span>Belgisches Viertel</span></g-link></b-col>
-        <b-col sm="6" md="3"><g-link to="/ehrenfeld/" class="filter p-2 px-5 d-inline-block"><span>Ehrenfeld</span></g-link></b-col>
-        <b-col sm="6" md="3"><g-link to="/deutz/" class="filter p-2 px-5 d-inline-block"><span>Deutz</span></g-link></b-col>
+    <div class="text-center d-flex flex-wrap justify-content-between border-top border-bottom filter-container">
+        <b-col><g-link to="/cafes/" class="filter p-2 px-2 d-inline-block"><span>Alle</span></g-link></b-col>
+        <b-col><g-link to="/belgique/" class="filter p-2 px-2 d-inline-block"><span>Belgisches</span></g-link></b-col>
+        <b-col><g-link to="/ehrenfeld/" class="filter p-2 px-2 d-inline-block"><span>Ehrenfeld</span></g-link></b-col>
+        <b-col><g-link to="/deutz/" class="filter p-2 px-2 d-inline-block"><span>Deutz</span></g-link></b-col>
+        <b-col><g-link to="/suedstadt/" class="filter p-2 px-2 d-inline-block"><span>Südstadt</span></g-link></b-col>
+        <b-col><g-link to="/nippes/" class="filter p-2 px-2 d-inline-block"><span>Nippes</span></g-link></b-col>
+        <b-col><g-link to="/altstadt/" class="filter p-2 px-2 d-inline-block"><span>Altstadt</span></g-link></b-col>
     </div>
     <b-container class="my-5">
         <b-row>
