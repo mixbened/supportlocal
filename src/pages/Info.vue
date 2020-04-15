@@ -32,7 +32,11 @@
         <h5>Bekomme ich für meine Zahlung eine Gegenleistung?</h5>
         <p>Unsere Idee ist der Erwerb eines rein virtuellen Kaffees als solidarische Aktion. Die Inhaber können euch jedoch individuell einen Gutschein für einen tatsächlichen Kaffee anbieten. Ob dies der Fall ist, seht ihr in dem Info-Text auf der PayPal-Seite eures Cafés, auf die ihr zum Bezahlen weitergeleitet werdet.</p>
       </section>
-
+      <hr>
+      <section>
+        <img width="200" src="../assets/images/KB_Logo_RGB (255).png" alt="">
+        <p class="my-3"><small>Partner der KölnBusiness Wirtschaftsförderung Köln</small></p>
+      </section>
     </b-container>
   </Layout>
 </template>
